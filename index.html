@@ -57,6 +57,10 @@ text-indent: 0%;
 background-color: #eef;
 }
 
+.graybox2{
+background-color: white;
+}
+
 p3{
 color: gray;
 font-size: 10px;
@@ -65,22 +69,29 @@ height: 5px;
 }
 
 p5{
-color: white;
+color: gray;
 font-size: 8px;
 font-weight: bold;
 
 }
 .table{
-    background-color: #777;
-    width: 5px;
+    background-color: #eef;
+    margin: auto;
+   text-align:center
+}
+
+.table2{
+   background-color:white;
+   margin: auto;
+   text-align:center
 }
 .fm{
 margin: 0%;
 padding: 0%;
 text-align: left;
-tex
-
 }
+
+
   </STYLE>
 </head>
 <body>
@@ -161,7 +172,7 @@ tex
             <div class="col-sm-1">
             </div>
             <div class="col-sm-11 graybox">
-               <p2>Descripción</p2>
+               <p>Descripción</p>
            </div>
      </div>
      <!-- END OF THIRD LINE-->
@@ -170,7 +181,7 @@ tex
         <div class="col-sm-1">
             </div>
             <div class="col-sm-11">
-            <p3>Tenemos el agrado de presentarle nuestra propuesto para la búsqueda de trabajo lider en puestos operativos en México, de acuerdo a lo comentado con ustedes.</p3>
+            <p>Tenemos el agrado de presentarle nuestra propuesto para la búsqueda de trabajo lider en puestos operativos en México, de acuerdo a lo comentado con ustedes.</p>
             </div>
      </div>
     <!-- END OF FOURTH LINE-->
@@ -180,41 +191,79 @@ tex
             <div class="col-sm-1">
             </div>
             <div class="col-sm-11 graybox">
-               <p2>Paquete</p2>
+               <p>Paquete</p>
            </div>
      </div>
      <!-- END OF FIFTH LINE-->
-     <!-- SIXTH LINE-->
-     <div class="row">
-            <!-- Margen izquierdo -->
+     </div>
+    <!-- SIXTH LINE -->
+    <div class="container">
+    <div class="row">
             <div class="col-sm-1">
                 </div>
-            <!-- Columna A-->
-            <div class="col-sm-1 table">
-                <p5>Cantidad</p5>
-                </div>
-            <!-- Columna B -->
-            <div class="col-sm-2 table" >
-                <p5>Producto</p5>
-                      </div>
-            <!-- Columna C-->
-            <div class="col-sm-2 table">
-                <p5>Vigencia de paquete dias</p5>
-                </div>
-            <!-- Columna D -->
-            <div class="col-sm-2 table">
-                <p5>Tiempo de publicación de vacantes dias</p5>
-                </div>
-            <!-- Columna E -->
-            <div class="col-sm-2 table">
-                <p5>Precio de lista</p5>
-                </div>
-            <!-- Columna F -->
-            <div class="col-sm-2 table">
-                <p5>Subtotal</p5>
-                </div>
+        <div class="col-sm-11">
+    <table class="table">
+        <thead>
+          <tr>
+            <th><p>Cantidad</p></th>
+            <th><p>Producto</p></th>
+            <th><p>Vigencia de Paquete días</p></th>
+            <th><p>Tiempo de Publicación de Vacante en días</p></th>
+            <th><p>Precio de Lista</p></th>
+            <th><p>Subtotal</p></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table table-bordered">
+            <th scope="row"><p>1</p></th>
+            <td><p>paquete enterprise</p></td>
+            <td><p>30 </p></td>
+            <td><p>10</p></td>
+            <td><p>1000</p></td>
+            <td><p>1100</p></td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+</div>
+      <!-- END SIXTH LINE -->
+      <br>
+      <br>
+       <!-- SEVEN LINE-->
+       <div class="row">
+            <div class="col-sm-1">
+            </div>
+            <div class="col-sm-11 graybox">
+               <p>Total</p>
+           </div>
+     </div>
+     <!-- END OF SEVEN LINE-->
+       <!-- EIGHT LINE -->
+    <div class="container">
+            <div class="row">
+                    <div class="col-sm-1">
+                        </div>
+                <div class="col-sm-11">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th><p>Subtotal</p></th>
+                    <th><p>I.V.A.</p></th>
+                    <th><p>Total</p></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table table-bordered">
+                    <th scope="row"><p>1000</p></th>
+                    <td><p>100</p></td>
+                    <td><p>1100 </p></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
         </div>
-    <!-- SIXTH LINE-->
+              <!-- END EIGHT LINE -->
 </div>
       <!-- BOOTSTRAP STYLES -->
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
